@@ -27,8 +27,8 @@ Dán đoạn trace chứng minh lỗi và nêu nguyên nhân có thể xảy ra.
 | Chỉ số | `eval_before.json` | `eval_after.json` |
 |---|---|---|
 | Điểm tổng | 77.73/100 |  |
-| Điểm case đã chọn | 55(E1) |  |
-| Số model calls | 8 |  |
+| Điểm case đã chọn - E1 | 55 |  |
+| Số model calls | 1 |  |
 | Token, chi phí nếu có | 80.6K Tokens - 0.0178USD |  |
 
 (Số liệu về token, chi phí đã được lấy từ [OpenRouter](https://openrouter.ai/workspaces/default/activity/explore?metric=total_usage&granularity=day&from=2026-10-12T17:00:00.000Z&to=2026-11-11T16:59:59.999Z))
