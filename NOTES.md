@@ -115,6 +115,6 @@ Dán đoạn trace chứng minh lỗi và nêu nguyên nhân có thể xảy ra.
 
 Nêu giới hạn của điểm judge, của snapshot và của việc chỉ chạy một lần mỗi phiên bản.
 
-Giới hạn của điểm judge: 
-Giới hạn về snapshot:
-Giới hạn về chạy 1 lần 1 phiên bản: Không thể  
+Giới hạn của điểm judge: Judge đang được chấm bằng model sử dụng chung với provider nên kết quả có thể không chính xác tuyệt đối vì model có thể chấm dễ cho chính nó.
+Giới hạn về snapshot: 
+Giới hạn về chạy 1 lần 1 phiên bản: Không cho phép agent học thêm từ những improvement từ những câu trả lời sai. Khi đó điểm tổng của case có thể tăng lên khi chạy nhiều lần và khi áp dụng thực tế thì điểm không còn chính xác như lúc chạy 1 lần nữa
